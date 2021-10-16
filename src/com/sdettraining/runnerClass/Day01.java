@@ -2,12 +2,12 @@ package com.sdettraining.runnerClass;
 
 import java.util.HashMap;
 
-public class Class1 {
+public class Day01 {
 	
 	
 	public static void main(String[] args) {
 		
-	HashMap<String, String> hasmap=new HashMap<String,String>();
+HashMap<String, String> hasmap=new HashMap<String,String>();
 	
 		String str="UserIDText=null";
 		String str1[]=str.split(";");
@@ -26,5 +26,9 @@ public class Class1 {
 		
 		System.out.println(hasmap);
 	}
-
+	
 }
+	
+	
+
+

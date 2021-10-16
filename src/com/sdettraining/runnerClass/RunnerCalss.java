@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions (
 	        features = "./src/com/sdettraining/feature"
 	        ,glue = {"com.sdettraining.setpdefination"}
-	        ,tags = {"@RetailRegistrationTest"})
+	        ,tags = {"@RetailLoginTest", "@RetailRegistrationTest"})
 
 	public class RunnerCalss {
 }

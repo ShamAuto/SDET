@@ -2,6 +2,7 @@ package com.sdettraining.setpdefination;
 
 import java.util.concurrent.TimeUnit;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -62,74 +63,77 @@ public class setpdef extends BaseTest {
 	}
 
 	@When("^User enter first name \"([^\"]*)\"$")
-	public void user_enter_first_name(String arg1) throws Throwable {
-		driver.findElement(By.xpath("//input[@id='input-firstname']")).sendKeys("Shameem");
+	public void user_enter_first_name(String firstname) throws Throwable {
+		driver.findElement(By.xpath("//input[@id='input-firstname']")).sendKeys(firstname);
 
 	}
 
 	@When("^User enter last name \"([^\"]*)\"$")
-	public void user_enter_last_name(String arg1) throws Throwable {
-		driver.findElement(By.xpath("//input[@id='input-lastname']")).sendKeys("Akther");
+	public void user_enter_last_name(String lastname) throws Throwable {
+		driver.findElement(By.xpath("//input[@id='input-lastname']")).sendKeys(lastname);
 
 	}
 
 	@When("^User enter email \"([^\"]*)\"$")
-	public void user_enter_email(String arg1) throws Throwable {
-		driver.findElement(By.xpath("//input[@id='input-email']")).sendKeys("abc.gmail.com");
+	public void user_enter_email(String email) throws Throwable {
+		driver.findElement(By.xpath("//input[@id='input-email']")).sendKeys(email);
 	}
 
 	@When("^User enter telephone \"([^\"]*)\"$")
-	public void user_enter_telephone(String arg1) throws Throwable {
+	public void user_enter_telephone(String telephone) throws Throwable {
 
-		driver.findElement(By.xpath("//input[@id='input-telephone']")).sendKeys("1234567899");
+		driver.findElement(By.xpath("//input[@id='input-telephone']")).sendKeys(telephone);
 	}
 
 	@When("^User enter address(\\d+) \"([^\"]*)\"$")
-	public void user_enter_address(int arg1, String arg2) throws Throwable {
-		driver.findElement(By.xpath("//input[@id='input-address-1']")).sendKeys("Nagawara");
-
+	public void user_enter_address(String address1, String address2) throws Throwable {
+		driver.findElement(By.xpath("//input[@id='input-address-1']")).sendKeys(address1);
+		driver.findElement(By.xpath("//input[@id='input-address-1']")).sendKeys(address2);
 	}
 
 	@When("^User enter city \"([^\"]*)\"$")
-	public void user_enter_city(String arg1) throws Throwable {
-		driver.findElement(By.xpath("//input[@id='input-city']")).sendKeys("Bangalore");
+	public void user_enter_city(String city) throws Throwable {
+		driver.findElement(By.xpath("//input[@id='input-city']")).sendKeys(city);
 
 	}
 
 	@When("^User enter postcode \"([^\"]*)\"$")
-	public void user_enter_postcode(String arg1) throws Throwable {
-		driver.findElement(By.xpath("//input[@id='input-postcode']")).sendKeys("560045");
+	public void user_enter_postcode(String postcode) throws Throwable {
+		driver.findElement(By.xpath("//input[@id='input-postcode']")).sendKeys(postcode);
 
 	}
 
 	@When("^User select country \"([^\"]*)\"$")
-	public void user_select_country(String arg1) throws Throwable {
-		new Select(driver.findElement(By.xpath("//select[@id='input-country']"))).selectByVisibleText("India");
+	public void user_select_country(String country) throws Throwable {
+		new Select(driver.findElement(By.xpath("//select[@id='input-country']"))).selectByVisibleText(country);
 
 	}
 
 	@When("^User select region/state \"([^\"]*)\"$")
-	public void user_select_region_state(String arg1) throws Throwable {
-		new Select(driver.findElement(By.xpath("//select[@id='input-zone']"))).selectByVisibleText("Karnataka");
+	public void user_select_region_state(String state) throws Throwable {
+		new Select(driver.findElement(By.xpath("//select[@id='input-zone']"))).selectByVisibleText(state);
 
 	}
 
 	@When("^User enter password \"([^\"]*)\"$")
-	public void user_enter_password(String arg1) throws Throwable {
-		driver.findElement(By.xpath("//*[@id='input-password']")).sendKeys("sham@12345");
+	public void user_enter_password(String password) throws Throwable {
+		driver.findElement(By.xpath("//*[@id='input-password']")).sendKeys(password);
 
 	}
 
 	@When("^User enter passwordconfirm \"([^\"]*)\"$")
-	public void user_enter_passwordconfirm(String arg1) throws Throwable {
-		driver.findElement(By.xpath("//*[@id='input-confirm']")).sendKeys("sham@12345");
+	public void user_enter_passwordconfirm(String passwordconfirm) throws Throwable {
+		driver.findElement(By.xpath("//*[@id='input-confirm']")).sendKeys(passwordconfirm);
 
 	}
 
 	@When("^User click on no subscribe button$")
 	public void user_click_on_no_subscribe_button() throws Throwable {
-
-		driver.findElement(By.xpath("/input[@name='newsletter' and @value='0']")).click();
+		//input[@name='newsletter' and @value='0'and @type='radio']
+		//input[@name='newsletter' and @value='0' and @type='radio']
+		driver.findElement(By.xpath("//input[@name='newsletter' and @value='0' and @type='radio']")).click();
+		Thread.sleep(5000);
+		driver.findElement(By.xpath("//input[@name='newsletter' and @value='1' and @type='radio']")).click();
 	}
 	
 	@When("^User click on polic radiobutton$")
@@ -147,6 +151,10 @@ public class setpdef extends BaseTest {
 	public void user_validate_user_register_successfully() throws Throwable {
 		//driver.findElement(By.xpath("")).sendKeys("");
 		////input[@value='Continue']
+		//driver.findElement(By.xpath("//input[@value='Continue']")).click();
+		String success=driver.getCurrentUrl();
+		Assert.assertTrue("User register successfully", success.contains(success));
+		
 	}
 
 	@Then("^User close the application$")
@@ -155,4 +163,20 @@ public class setpdef extends BaseTest {
 		driver.close();
 	}
 
+	
+	@When("^User enter username \"([^\"]*)\"$")
+	public void user_enter_username(String userName) throws Throwable {
+		driver.findElement(By.xpath("//input[@id='input-email']")).sendKeys(userName);
+	}
+
+	@When("^User click on login link$")
+	public void user_click_on_login_link() throws Throwable {
+		
+		driver.findElement(By.xpath("//input[@id='input-email']")).click();
+	}
+
+	@When("^User validate login successfully$")
+	public void user_validate_login_successfully() throws Throwable {
+	  
+	}
 }
