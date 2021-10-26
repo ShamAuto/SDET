@@ -159,7 +159,7 @@ public class setpdef extends BaseTest {
 
 	@Then("^User close the application$")
 	public void user_close_the_application() throws Throwable {
-		Thread.sleep(10000);
+		Thread.sleep(5000);
 		driver.close();
 	}
 
@@ -177,6 +177,8 @@ public class setpdef extends BaseTest {
 
 	@When("^User validate login successfully$")
 	public void user_validate_login_successfully() throws Throwable {
+	  String login_sccess=driver.getCurrentUrl();
+	  Assert.assertTrue("Login successfully", login_sccess.contains("account"));
 	  
 	}
 }

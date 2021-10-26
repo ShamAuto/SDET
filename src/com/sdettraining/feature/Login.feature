@@ -12,7 +12,7 @@ Feature: User Retail Login page
     And User enter password "<password>"
     And User click on login link
     And User validate login successfully
-   Examples: 
-      | userName | password |
-      | abc_123np123@gmail.com   | sham@12345   |
-    
+    And User close the application
+    Examples: 
+      | userName               | password   |
+      | shameem.test@gmail.com | sham@12345 |

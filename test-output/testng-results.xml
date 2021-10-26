@@ -1,17 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="82" started-at="2021-10-08T03:08:39Z" finished-at="2021-10-08T03:08:39Z">
+  <suite name="Default suite" duration-ms="31" started-at="2021-10-21T03:31:40Z" finished-at="2021-10-21T03:31:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="82" started-at="2021-10-08T03:08:39Z" finished-at="2021-10-08T03:08:39Z">
-      <class name="com.sdettraining.Day04">
-        <test-method status="PASS" signature="testMethod1()[pri:0, instance:com.sdettraining.Day04@458ad742]" name="testMethod1" duration-ms="27" started-at="2021-10-08T08:38:39Z" finished-at="2021-10-08T08:38:39Z">
+    <test name="Default test" duration-ms="31" started-at="2021-10-21T03:31:40Z" finished-at="2021-10-21T03:31:41Z">
+      <class name="com.sdettraining.restAssuredemo.restDemo_04">
+        <test-method status="FAIL" signature="main([Ljava.lang.String;)[pri:0, instance:com.sdettraining.restAssuredemo.restDemo_04@146ba0ac]" name="main" duration-ms="0" started-at="2021-10-21T09:01:40Z" finished-at="2021-10-21T09:01:40Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method main requires 1 parameters but 0 were supplied in the @Test annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method main requires 1 parameters but 0 were supplied in the @Test annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:193)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:129)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:385)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:495)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1253)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:980)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1070)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMethod1 -->
-      </class> <!-- com.sdettraining.Day04 -->
+        </test-method> <!-- main -->
+      </class> <!-- com.sdettraining.restAssuredemo.restDemo_04 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

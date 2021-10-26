@@ -1,0 +1,19 @@
+10:52:07,076  INFO devpinoyLogger<strong>{1}</strong>:19 - I am starting222222
+10:52:43,901  INFO devpinoyLogger<strong>{1}</strong>:19 - I am starting222222
+12:21:33,741 DEBUG devpinoyLogger<strong>{1}</strong>:19 - Hello Thi is my first logi for restAssured
+13:54:48,766 DEBUG devpinoyLogger<strong>{1}</strong>:19 - Hello Thi is my first logi for restAssured1111
+13:59:02,316 DEBUG devpinoyLogger<strong>{1}</strong>:49 - Success       :-1
+14:00:32,653 DEBUG devpinoyLogger<strong>{1}</strong>:34 - <b>Warning</b>: mysqli::mysqli(): Headers and client library minor version mismatch. Headers:100508 Library:100236 in <b>/home/u942925711/domains/upskills.in/public_html/rest-api/system/library/db/mysqli.php</b> on line <b>7</b>{"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"117.248.182.13","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+14:00:32,661 DEBUG devpinoyLogger<strong>{1}</strong>:36 - {"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"117.248.182.13","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+14:00:32,668 DEBUG devpinoyLogger<strong>{1}</strong>:38 - Success       :-1
+14:00:32,672 DEBUG devpinoyLogger<strong>{1}</strong>:39 - User_id       :-1
+14:00:32,675 DEBUG devpinoyLogger<strong>{1}</strong>:40 - User_group_id :-1
+14:00:32,679 DEBUG devpinoyLogger<strong>{1}</strong>:41 - Username      :-upskills_admin
+14:00:32,683 DEBUG devpinoyLogger<strong>{1}</strong>:42 - Firstname     :-John
+14:00:32,689 DEBUG devpinoyLogger<strong>{1}</strong>:43 - Lastname      :-Doe
+14:00:32,693 DEBUG devpinoyLogger<strong>{1}</strong>:44 - Email         :-probitstechnologies@gmail.com
+14:00:32,696 DEBUG devpinoyLogger<strong>{1}</strong>:45 - Ip            :-117.248.182.13
+14:00:32,700 DEBUG devpinoyLogger<strong>{1}</strong>:46 - Status        :-1
+14:00:32,703 DEBUG devpinoyLogger<strong>{1}</strong>:47 - Date_added    :-2019-11-11 07:59:33
+14:00:32,706 DEBUG devpinoyLogger<strong>{1}</strong>:48 - User_group    :-Administrator
+14:00:32,708 DEBUG devpinoyLogger<strong>{1}</strong>:49 - Success       :-1

@@ -1,7 +1,5 @@
 package com.sdettraining.runnerClass;
 
-import org.testng.annotations.Test;
-
 public class Day04 {
 	/*
 	@Test

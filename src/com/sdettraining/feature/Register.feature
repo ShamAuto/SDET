@@ -29,5 +29,5 @@ Feature: User Retail Registration
 
     Examples: 
       | firstname | lastname | email                  | telephone  | address1  | address2 | city      | postcode | country | state     | password   | passwordconfirm |
-      | Shameem   | Akther   | abc_123np123@gmail.com | 1234567890 | Bangalore | Nagawara | Bangalore |   520045 | India   | Karnataka | sham@12345 | sham@12345      |
-      | Shameem   | Akther   | abc_123n456p@gmail.com | 1234567890 | Bangalore | Nagawara | Bangalore |   520045 | India   | Karnataka | sham@12345 | sham@12345      |
+      | Shameem   | Akther   | shameem.test@gmail.com | 1234567890 | Bangalore | Nagawara | Bangalore |   520045 | India   | Karnataka | sham@12345 | sham@12345      |
+ #     | Shameem   | Akther   | abc_123n456p@gmail.com | 1234567890 | Bangalore | Nagawara | Bangalore |   520045 | India   | Karnataka | sham@12345 | sham@12345      |
