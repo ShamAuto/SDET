@@ -20,7 +20,8 @@ public class LoginTest {
       
 	public static void main(String[] args) throws JsonParseException, JsonMappingException, IOException {
 		new LogDemo_01();
-		String sRemoveLogin = "<b>Warning</b>: mysqli::mysqli(): Headers and client library minor version mismatch. Headers:100508 Library:100236 in <b>/home/u942925711/domains/upskills.in/public_html/rest-api/system/library/db/mysqli.php</b> on line <b>7</b>";
+		LogDemo_01.applog().debug("*************Login Test Started***************");
+		//String sRemoveLogin = "<b>Warning</b>: mysqli::mysqli(): Headers and client library minor version mismatch. Headers:100508 Library:100236 in <b>/home/u942925711/domains/upskills.in/public_html/rest-api/system/library/db/mysqli.php</b> on line <b>7</b>";
 		File jsonFile = new File(System.getProperty("user.dir") + "/TestData/LoginData.json");
 
 		Response resp1 = RestAssured
@@ -32,7 +33,7 @@ public class LoginTest {
 		String sloginBody = resp1.body().asString();
 
 		LogDemo_01.applog().debug(sloginBody);
-		String sLoginBodyresponse = sloginBody.replace(sRemoveLogin, "");
+		String sLoginBodyresponse = sloginBody.replace(Util.configReader("sRemoveLogin"), "");
 		LogDemo_01.applog().debug(sLoginBodyresponse);
 		LoginResponse loginResponse = obj.readValue(sLoginBodyresponse, LoginResponse.class);
 		LogDemo_01.applog().debug("Success       :-"+loginResponse.getSuccess());
@@ -47,6 +48,7 @@ public class LoginTest {
 		LogDemo_01.applog().debug("Date_added    :-"+loginResponse.getData().getDate_added());
 		LogDemo_01.applog().debug("User_group    :-"+loginResponse.getData().getUser_group());
 		LogDemo_01.applog().debug("Success       :-"+loginResponse.getSuccess());
+		LogDemo_01.applog().debug("*************Login Test End***************");
 	}
 
 }

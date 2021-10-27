@@ -1,21 +1,20 @@
-26/10/2021 08:47:02 devpinoyLogger I am starting
-26/10/2021 10:47:49 devpinoyLogger I am starting111111
-26/10/2021 10:52:07 devpinoyLogger I am starting222222
-26/10/2021 10:52:43 devpinoyLogger I am starting222222
-26/10/2021 12:21:33 devpinoyLogger Hello Thi is my first logi for restAssured
-26/10/2021 13:54:48 devpinoyLogger Hello Thi is my first logi for restAssured1111
-26/10/2021 13:59:02 devpinoyLogger Success       :-1
-26/10/2021 14:00:32 devpinoyLogger <b>Warning</b>: mysqli::mysqli(): Headers and client library minor version mismatch. Headers:100508 Library:100236 in <b>/home/u942925711/domains/upskills.in/public_html/rest-api/system/library/db/mysqli.php</b> on line <b>7</b>{"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"117.248.182.13","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
-26/10/2021 14:00:32 devpinoyLogger {"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"117.248.182.13","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
-26/10/2021 14:00:32 devpinoyLogger Success       :-1
-26/10/2021 14:00:32 devpinoyLogger User_id       :-1
-26/10/2021 14:00:32 devpinoyLogger User_group_id :-1
-26/10/2021 14:00:32 devpinoyLogger Username      :-upskills_admin
-26/10/2021 14:00:32 devpinoyLogger Firstname     :-John
-26/10/2021 14:00:32 devpinoyLogger Lastname      :-Doe
-26/10/2021 14:00:32 devpinoyLogger Email         :-probitstechnologies@gmail.com
-26/10/2021 14:00:32 devpinoyLogger Ip            :-117.248.182.13
-26/10/2021 14:00:32 devpinoyLogger Status        :-1
-26/10/2021 14:00:32 devpinoyLogger Date_added    :-2019-11-11 07:59:33
-26/10/2021 14:00:32 devpinoyLogger User_group    :-Administrator
-26/10/2021 14:00:32 devpinoyLogger Success       :-1
+27/10/2021 09:32:51 devpinoyLogger *************LoginOut Test End***************
+27/10/2021 09:34:20 devpinoyLogger *************Login Test Started***************
+27/10/2021 09:34:23 devpinoyLogger 1b1890589d3a00bb384b056d2e428eb03fed31ee
+27/10/2021 09:34:24 devpinoyLogger <b>Warning</b>: mysqli::mysqli(): Headers and client library minor version mismatch. Headers:100508 Library:100236 in <b>/home/u942925711/domains/upskills.in/public_html/rest-api/system/library/db/mysqli.php</b> on line <b>7</b>{"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"182.93.71.253","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+27/10/2021 09:34:24 devpinoyLogger {"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"182.93.71.253","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+27/10/2021 09:34:24 devpinoyLogger Success       :-1
+27/10/2021 09:34:24 devpinoyLogger User_id       :-1
+27/10/2021 09:34:24 devpinoyLogger User_group_id :-1
+27/10/2021 09:34:24 devpinoyLogger Username      :-upskills_admin
+27/10/2021 09:34:24 devpinoyLogger Firstname     :-John
+27/10/2021 09:34:24 devpinoyLogger Lastname      :-Doe
+27/10/2021 09:34:24 devpinoyLogger Email         :-probitstechnologies@gmail.com
+27/10/2021 09:34:24 devpinoyLogger Ip            :-182.93.71.253
+27/10/2021 09:34:24 devpinoyLogger Status        :-1
+27/10/2021 09:34:24 devpinoyLogger Date_added    :-2019-11-11 07:59:33
+27/10/2021 09:34:24 devpinoyLogger User_group    :-Administrator
+27/10/2021 09:34:24 devpinoyLogger *************Login Test End***************
+27/10/2021 09:34:24 devpinoyLogger *************LoginOut Test Started***************
+27/10/2021 09:34:25 devpinoyLogger <b>Warning</b>: mysqli::mysqli(): Headers and client library minor version mismatch. Headers:100508 Library:100236 in <b>/home/u942925711/domains/upskills.in/public_html/rest-api/system/library/db/mysqli.php</b> on line <b>7</b>{"success":1,"error":[],"data":[]}
+27/10/2021 09:34:25 devpinoyLogger *************LoginOut Test End***************
