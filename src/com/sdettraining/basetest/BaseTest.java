@@ -1,8 +1,12 @@
-package com.sdettraining.loginTest;
+package com.sdettraining.basetest;
 
-public class BaseTest {
+import org.apache.log4j.Logger;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class BaseTest{
 	
-	
-	
+	public static Logger applog=Logger.getLogger("devpinoyLogger");
+	public static ObjectMapper obj = new ObjectMapper();
 
 }
