@@ -57,7 +57,7 @@ public class LoginOutTest extends BaseTest {
 				.contentType(ContentType.JSON).header("Authorization", "Bearer " + authtoken).when().post("/logout");
 
 		String sloginBody2 = resp2.body().asString();
-
+        System.out.println(sloginBody2);
 		applog.debug(sloginBody2);
 		applog.debug("*************LoginOut Test End***************");
 	}
