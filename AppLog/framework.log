@@ -80,3 +80,192 @@
 28/10/2021 20:16:39 devpinoyLogger *************LoginOut Test Started***************
 28/10/2021 20:16:40 devpinoyLogger <b>Warning</b>: mysqli::mysqli(): Headers and client library minor version mismatch. Headers:100508 Library:100236 in <b>/home/u942925711/domains/upskills.in/public_html/rest-api/system/library/db/mysqli.php</b> on line <b>7</b>{"success":1,"error":[],"data":[]}
 28/10/2021 20:16:40 devpinoyLogger *************LoginOut Test End***************
+31/10/2021 09:02:35 devpinoyLogger *************Login Test Started***************
+31/10/2021 09:02:42 devpinoyLogger the access token is :- 738066de3f2ae7828f908bda86a10bd90c2472fa
+31/10/2021 09:02:44 devpinoyLogger <b>Warning</b>: mysqli::mysqli(): Headers and client library minor version mismatch. Headers:100508 Library:100236 in <b>/home/u942925711/domains/upskills.in/public_html/rest-api/system/library/db/mysqli.php</b> on line <b>7</b>{"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"116.66.195.129","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+31/10/2021 09:02:44 devpinoyLogger {"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"116.66.195.129","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+31/10/2021 09:02:44 devpinoyLogger Success       :-1
+31/10/2021 09:02:44 devpinoyLogger User_id       :-1
+31/10/2021 09:02:44 devpinoyLogger User_group_id :-1
+31/10/2021 09:02:44 devpinoyLogger Username      :-upskills_admin
+31/10/2021 09:02:44 devpinoyLogger Firstname     :-John
+31/10/2021 09:02:44 devpinoyLogger Lastname      :-Doe
+31/10/2021 09:02:44 devpinoyLogger Email         :-probitstechnologies@gmail.com
+31/10/2021 09:02:44 devpinoyLogger Ip            :-116.66.195.129
+31/10/2021 09:02:44 devpinoyLogger Status        :-1
+31/10/2021 09:02:44 devpinoyLogger Date_added    :-2019-11-11 07:59:33
+31/10/2021 09:02:44 devpinoyLogger User_group    :-Administrator
+31/10/2021 09:02:44 devpinoyLogger Success       :-1
+31/10/2021 09:02:44 devpinoyLogger *************Login Test End***************
+31/10/2021 09:06:00 devpinoyLogger *************Login Test Started***************
+31/10/2021 09:06:05 devpinoyLogger the access token is :- d4a926403247bc24b49793a918df5d2e52d4845a
+31/10/2021 09:06:05 devpinoyLogger d4a926403247bc24b49793a918df5d2e52d4845a
+31/10/2021 09:06:06 devpinoyLogger <b>Warning</b>: mysqli::mysqli(): Headers and client library minor version mismatch. Headers:100508 Library:100236 in <b>/home/u942925711/domains/upskills.in/public_html/rest-api/system/library/db/mysqli.php</b> on line <b>7</b>{"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"116.66.195.129","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+31/10/2021 09:06:06 devpinoyLogger {"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"116.66.195.129","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+31/10/2021 09:06:06 devpinoyLogger Success       :-1
+31/10/2021 09:06:06 devpinoyLogger User_id       :-1
+31/10/2021 09:06:06 devpinoyLogger User_group_id :-1
+31/10/2021 09:06:06 devpinoyLogger Username      :-upskills_admin
+31/10/2021 09:06:06 devpinoyLogger Firstname     :-John
+31/10/2021 09:06:06 devpinoyLogger Lastname      :-Doe
+31/10/2021 09:06:06 devpinoyLogger Email         :-probitstechnologies@gmail.com
+31/10/2021 09:06:06 devpinoyLogger Ip            :-116.66.195.129
+31/10/2021 09:06:06 devpinoyLogger Status        :-1
+31/10/2021 09:06:06 devpinoyLogger Date_added    :-2019-11-11 07:59:33
+31/10/2021 09:06:06 devpinoyLogger User_group    :-Administrator
+31/10/2021 09:06:06 devpinoyLogger *************Login Test End***************
+31/10/2021 09:06:06 devpinoyLogger *************LoginOut Test Started***************
+31/10/2021 09:06:06 devpinoyLogger <b>Warning</b>: mysqli::mysqli(): Headers and client library minor version mismatch. Headers:100508 Library:100236 in <b>/home/u942925711/domains/upskills.in/public_html/rest-api/system/library/db/mysqli.php</b> on line <b>7</b>{"success":1,"error":[],"data":[]}
+31/10/2021 09:06:06 devpinoyLogger *************LoginOut Test End***************
+31/10/2021 09:29:11 devpinoyLogger *************Login Test Started***************
+31/10/2021 09:29:15 devpinoyLogger the access token is :- 6bff2b61f2d5e9478715ff514821e2f176b43c5e
+31/10/2021 09:29:16 devpinoyLogger <b>Warning</b>: mysqli::mysqli(): Headers and client library minor version mismatch. Headers:100508 Library:100236 in <b>/home/u942925711/domains/upskills.in/public_html/rest-api/system/library/db/mysqli.php</b> on line <b>7</b>{"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"116.66.195.185","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+31/10/2021 09:29:16 devpinoyLogger {"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"116.66.195.185","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+31/10/2021 09:29:16 devpinoyLogger Success       :-1
+31/10/2021 09:29:16 devpinoyLogger User_id       :-1
+31/10/2021 09:29:16 devpinoyLogger User_group_id :-1
+31/10/2021 09:29:16 devpinoyLogger Username      :-upskills_admin
+31/10/2021 09:29:16 devpinoyLogger Firstname     :-John
+31/10/2021 09:29:16 devpinoyLogger Lastname      :-Doe
+31/10/2021 09:29:16 devpinoyLogger Email         :-probitstechnologies@gmail.com
+31/10/2021 09:29:16 devpinoyLogger Ip            :-116.66.195.185
+31/10/2021 09:29:16 devpinoyLogger Status        :-1
+31/10/2021 09:29:16 devpinoyLogger Date_added    :-2019-11-11 07:59:33
+31/10/2021 09:29:16 devpinoyLogger User_group    :-Administrator
+31/10/2021 09:29:16 devpinoyLogger Success       :-1
+31/10/2021 09:29:16 devpinoyLogger *************Login Test End***************
+31/10/2021 09:34:53 devpinoyLogger *************Login Test Started***************
+31/10/2021 09:34:58 devpinoyLogger the access token is :- 7ee217b49e8b06632709b401d465afad621a38a2
+31/10/2021 09:34:58 devpinoyLogger 7ee217b49e8b06632709b401d465afad621a38a2
+31/10/2021 09:34:59 devpinoyLogger <b>Warning</b>: mysqli::mysqli(): Headers and client library minor version mismatch. Headers:100508 Library:100236 in <b>/home/u942925711/domains/upskills.in/public_html/rest-api/system/library/db/mysqli.php</b> on line <b>7</b>{"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"116.66.195.185","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+31/10/2021 09:34:59 devpinoyLogger {"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"116.66.195.185","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+31/10/2021 09:34:59 devpinoyLogger Success       :-1
+31/10/2021 09:34:59 devpinoyLogger User_id       :-1
+31/10/2021 09:34:59 devpinoyLogger User_group_id :-1
+31/10/2021 09:34:59 devpinoyLogger Username      :-upskills_admin
+31/10/2021 09:34:59 devpinoyLogger Firstname     :-John
+31/10/2021 09:34:59 devpinoyLogger Lastname      :-Doe
+31/10/2021 09:34:59 devpinoyLogger Email         :-probitstechnologies@gmail.com
+31/10/2021 09:34:59 devpinoyLogger Ip            :-116.66.195.185
+31/10/2021 09:34:59 devpinoyLogger Status        :-1
+31/10/2021 09:34:59 devpinoyLogger Date_added    :-2019-11-11 07:59:33
+31/10/2021 09:34:59 devpinoyLogger User_group    :-Administrator
+31/10/2021 09:34:59 devpinoyLogger *************Login Test End***************
+31/10/2021 09:34:59 devpinoyLogger *************LoginOut Test Started***************
+31/10/2021 09:35:00 devpinoyLogger <b>Warning</b>: mysqli::mysqli(): Headers and client library minor version mismatch. Headers:100508 Library:100236 in <b>/home/u942925711/domains/upskills.in/public_html/rest-api/system/library/db/mysqli.php</b> on line <b>7</b>{"success":0,"error":[],"data":[]}
+31/10/2021 09:35:00 devpinoyLogger *************LoginOut Test End***************
+31/10/2021 09:38:24 devpinoyLogger *************Login Test Started***************
+31/10/2021 09:38:28 devpinoyLogger the access token is :- 27cf425cd8ff791ea7e7833194aaf58c442c7849
+31/10/2021 09:38:28 devpinoyLogger 27cf425cd8ff791ea7e7833194aaf58c442c7849
+31/10/2021 09:38:29 devpinoyLogger <b>Warning</b>: mysqli::mysqli(): Headers and client library minor version mismatch. Headers:100508 Library:100236 in <b>/home/u942925711/domains/upskills.in/public_html/rest-api/system/library/db/mysqli.php</b> on line <b>7</b>{"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"116.66.195.185","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+31/10/2021 09:38:29 devpinoyLogger {"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"116.66.195.185","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+31/10/2021 09:38:29 devpinoyLogger Success       :-1
+31/10/2021 09:38:29 devpinoyLogger User_id       :-1
+31/10/2021 09:38:29 devpinoyLogger User_group_id :-1
+31/10/2021 09:38:29 devpinoyLogger Username      :-upskills_admin
+31/10/2021 09:38:29 devpinoyLogger Firstname     :-John
+31/10/2021 09:38:29 devpinoyLogger Lastname      :-Doe
+31/10/2021 09:38:29 devpinoyLogger Email         :-probitstechnologies@gmail.com
+31/10/2021 09:38:29 devpinoyLogger Ip            :-116.66.195.185
+31/10/2021 09:38:29 devpinoyLogger Status        :-1
+31/10/2021 09:38:29 devpinoyLogger Date_added    :-2019-11-11 07:59:33
+31/10/2021 09:38:29 devpinoyLogger User_group    :-Administrator
+31/10/2021 09:38:29 devpinoyLogger *************Login Test End***************
+31/10/2021 09:38:29 devpinoyLogger *************LoginOut Test Started***************
+31/10/2021 09:38:30 devpinoyLogger <b>Warning</b>: mysqli::mysqli(): Headers and client library minor version mismatch. Headers:100508 Library:100236 in <b>/home/u942925711/domains/upskills.in/public_html/rest-api/system/library/db/mysqli.php</b> on line <b>7</b>{"success":0,"error":[],"data":[]}
+31/10/2021 09:38:30 devpinoyLogger *************LoginOut Test End***************
+31/10/2021 09:40:42 devpinoyLogger *************Login Test Started***************
+31/10/2021 09:40:47 devpinoyLogger the access token is :- a89076474483a7f31f674f0f485a089d53ad1c2e
+31/10/2021 09:40:47 devpinoyLogger a89076474483a7f31f674f0f485a089d53ad1c2e
+31/10/2021 09:40:47 devpinoyLogger <b>Warning</b>: mysqli::mysqli(): Headers and client library minor version mismatch. Headers:100508 Library:100236 in <b>/home/u942925711/domains/upskills.in/public_html/rest-api/system/library/db/mysqli.php</b> on line <b>7</b>{"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"116.66.195.185","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+31/10/2021 09:40:47 devpinoyLogger {"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"116.66.195.185","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+31/10/2021 09:40:47 devpinoyLogger Success       :-1
+31/10/2021 09:40:47 devpinoyLogger User_id       :-1
+31/10/2021 09:40:47 devpinoyLogger User_group_id :-1
+31/10/2021 09:40:47 devpinoyLogger Username      :-upskills_admin
+31/10/2021 09:40:47 devpinoyLogger Firstname     :-John
+31/10/2021 09:40:47 devpinoyLogger Lastname      :-Doe
+31/10/2021 09:40:47 devpinoyLogger Email         :-probitstechnologies@gmail.com
+31/10/2021 09:40:47 devpinoyLogger Ip            :-116.66.195.185
+31/10/2021 09:40:47 devpinoyLogger Status        :-1
+31/10/2021 09:40:47 devpinoyLogger Date_added    :-2019-11-11 07:59:33
+31/10/2021 09:40:47 devpinoyLogger User_group    :-Administrator
+31/10/2021 09:40:47 devpinoyLogger *************Login Test End***************
+31/10/2021 09:40:47 devpinoyLogger *************LoginOut Test Started***************
+31/10/2021 09:40:48 devpinoyLogger <b>Warning</b>: mysqli::mysqli(): Headers and client library minor version mismatch. Headers:100508 Library:100236 in <b>/home/u942925711/domains/upskills.in/public_html/rest-api/system/library/db/mysqli.php</b> on line <b>7</b>{"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"116.66.195.185","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+31/10/2021 09:40:48 devpinoyLogger *************LoginOut Test End***************
+31/10/2021 09:46:10 devpinoyLogger *************Login Test Started***************
+31/10/2021 09:46:15 devpinoyLogger the access token is :- bfe1d2fae0ec6272a2003b4daf4ec68904556176
+31/10/2021 09:46:15 devpinoyLogger bfe1d2fae0ec6272a2003b4daf4ec68904556176
+31/10/2021 09:46:16 devpinoyLogger <b>Warning</b>: mysqli::mysqli(): Headers and client library minor version mismatch. Headers:100508 Library:100236 in <b>/home/u942925711/domains/upskills.in/public_html/rest-api/system/library/db/mysqli.php</b> on line <b>7</b>{"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"116.66.195.185","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+31/10/2021 09:46:16 devpinoyLogger {"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"116.66.195.185","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+31/10/2021 09:46:16 devpinoyLogger Success       :-1
+31/10/2021 09:46:16 devpinoyLogger User_id       :-1
+31/10/2021 09:46:16 devpinoyLogger User_group_id :-1
+31/10/2021 09:46:16 devpinoyLogger Username      :-upskills_admin
+31/10/2021 09:46:16 devpinoyLogger Firstname     :-John
+31/10/2021 09:46:16 devpinoyLogger Lastname      :-Doe
+31/10/2021 09:46:16 devpinoyLogger Email         :-probitstechnologies@gmail.com
+31/10/2021 09:46:16 devpinoyLogger Ip            :-116.66.195.185
+31/10/2021 09:46:16 devpinoyLogger Status        :-1
+31/10/2021 09:46:16 devpinoyLogger Date_added    :-2019-11-11 07:59:33
+31/10/2021 09:46:16 devpinoyLogger User_group    :-Administrator
+31/10/2021 09:46:16 devpinoyLogger *************Login Test End***************
+31/10/2021 09:46:16 devpinoyLogger *************LoginOut Test Started***************
+31/10/2021 09:46:16 devpinoyLogger <b>Warning</b>: mysqli::mysqli(): Headers and client library minor version mismatch. Headers:100508 Library:100236 in <b>/home/u942925711/domains/upskills.in/public_html/rest-api/system/library/db/mysqli.php</b> on line <b>7</b>{"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"116.66.195.185","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+31/10/2021 09:46:16 devpinoyLogger {"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"116.66.195.185","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+31/10/2021 09:46:16 devpinoyLogger *************LoginOut Test End***************
+31/10/2021 09:46:48 devpinoyLogger *************Login Test Started***************
+31/10/2021 09:46:52 devpinoyLogger the access token is :- 8d02e4a78a88c9f4734cc9065e5774fb2b387c5f
+31/10/2021 09:46:52 devpinoyLogger 8d02e4a78a88c9f4734cc9065e5774fb2b387c5f
+31/10/2021 09:46:53 devpinoyLogger <b>Warning</b>: mysqli::mysqli(): Headers and client library minor version mismatch. Headers:100508 Library:100236 in <b>/home/u942925711/domains/upskills.in/public_html/rest-api/system/library/db/mysqli.php</b> on line <b>7</b>{"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"116.66.195.185","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+31/10/2021 09:46:53 devpinoyLogger {"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"116.66.195.185","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+31/10/2021 09:46:53 devpinoyLogger Success       :-1
+31/10/2021 09:46:53 devpinoyLogger User_id       :-1
+31/10/2021 09:46:53 devpinoyLogger User_group_id :-1
+31/10/2021 09:46:53 devpinoyLogger Username      :-upskills_admin
+31/10/2021 09:46:53 devpinoyLogger Firstname     :-John
+31/10/2021 09:46:53 devpinoyLogger Lastname      :-Doe
+31/10/2021 09:46:53 devpinoyLogger Email         :-probitstechnologies@gmail.com
+31/10/2021 09:46:53 devpinoyLogger Ip            :-116.66.195.185
+31/10/2021 09:46:53 devpinoyLogger Status        :-1
+31/10/2021 09:46:53 devpinoyLogger Date_added    :-2019-11-11 07:59:33
+31/10/2021 09:46:53 devpinoyLogger User_group    :-Administrator
+31/10/2021 09:46:53 devpinoyLogger *************Login Test End***************
+31/10/2021 09:46:53 devpinoyLogger *************LoginOut Test Started***************
+31/10/2021 09:46:53 devpinoyLogger <b>Warning</b>: mysqli::mysqli(): Headers and client library minor version mismatch. Headers:100508 Library:100236 in <b>/home/u942925711/domains/upskills.in/public_html/rest-api/system/library/db/mysqli.php</b> on line <b>7</b>{"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"116.66.195.185","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+31/10/2021 09:46:53 devpinoyLogger {"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"116.66.195.185","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+31/10/2021 09:46:53 devpinoyLogger *************LoginOut Test End***************
+31/10/2021 10:01:38 devpinoyLogger *************Login Test Started***************
+31/10/2021 10:01:43 devpinoyLogger the access token is :- 4410463b6e2cc42d92e0295f7dcff321a39b9731
+31/10/2021 10:01:43 devpinoyLogger 4410463b6e2cc42d92e0295f7dcff321a39b9731
+31/10/2021 10:01:43 devpinoyLogger <b>Warning</b>: mysqli::mysqli(): Headers and client library minor version mismatch. Headers:100508 Library:100236 in <b>/home/u942925711/domains/upskills.in/public_html/rest-api/system/library/db/mysqli.php</b> on line <b>7</b>{"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"116.66.195.185","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+31/10/2021 10:01:43 devpinoyLogger {"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"116.66.195.185","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+31/10/2021 10:01:43 devpinoyLogger Success       :-1
+31/10/2021 10:01:43 devpinoyLogger User_id       :-1
+31/10/2021 10:01:43 devpinoyLogger User_group_id :-1
+31/10/2021 10:01:43 devpinoyLogger Username      :-upskills_admin
+31/10/2021 10:01:43 devpinoyLogger Firstname     :-John
+31/10/2021 10:01:43 devpinoyLogger Lastname      :-Doe
+31/10/2021 10:01:43 devpinoyLogger Email         :-probitstechnologies@gmail.com
+31/10/2021 10:01:43 devpinoyLogger Ip            :-116.66.195.185
+31/10/2021 10:01:43 devpinoyLogger Status        :-1
+31/10/2021 10:01:43 devpinoyLogger Date_added    :-2019-11-11 07:59:33
+31/10/2021 10:01:43 devpinoyLogger User_group    :-Administrator
+31/10/2021 10:01:43 devpinoyLogger *************Login Test End***************
+31/10/2021 10:01:43 devpinoyLogger *************UserDetails Test Started***************
+31/10/2021 10:01:44 devpinoyLogger <b>Warning</b>: mysqli::mysqli(): Headers and client library minor version mismatch. Headers:100508 Library:100236 in <b>/home/u942925711/domains/upskills.in/public_html/rest-api/system/library/db/mysqli.php</b> on line <b>7</b>{"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"116.66.195.185","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+31/10/2021 10:01:44 devpinoyLogger {"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"116.66.195.185","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+31/10/2021 10:01:44 devpinoyLogger Success       :-1
+31/10/2021 10:01:44 devpinoyLogger User_id       :-1
+31/10/2021 10:01:44 devpinoyLogger User_group_id :-1
+31/10/2021 10:01:44 devpinoyLogger Username      :-upskills_admin
+31/10/2021 10:01:44 devpinoyLogger Firstname     :-John
+31/10/2021 10:01:44 devpinoyLogger Lastname      :-Doe
+31/10/2021 10:01:44 devpinoyLogger Email         :-probitstechnologies@gmail.com
+31/10/2021 10:01:44 devpinoyLogger Ip            :-116.66.195.185
+31/10/2021 10:01:44 devpinoyLogger Status        :-1
+31/10/2021 10:01:44 devpinoyLogger Date_added    :-2019-11-11 07:59:33
+31/10/2021 10:01:44 devpinoyLogger User_group    :-Administrator
+31/10/2021 10:01:44 devpinoyLogger Success       :-1
+31/10/2021 10:01:44 devpinoyLogger *************UserDetails Test End***************

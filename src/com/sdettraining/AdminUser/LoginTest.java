@@ -1,4 +1,4 @@
-package com.sdettraining.loginTest;
+package com.sdettraining.AdminUser;
 
 import java.io.File;
 import java.io.IOException;
