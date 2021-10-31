@@ -8,6 +8,8 @@ public class Demo_01 {
 		//Logger applog=Lo
 		System.out.println("Hello Jenkins");
 		System.out.println("Hello Jenkins");
+		System.out.println("Hello Jenkins");
+		System.out.println("Hello Jenkins");
 	}
 
 }
