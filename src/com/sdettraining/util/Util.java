@@ -11,7 +11,11 @@ public class Util {
 	public static FileInputStream fs;
 	public static Properties prop;
 	public static Logger applog;
-
+	/**
+	 * @param propname
+	 * @return
+	 * @throws IOException
+	 */
 	public static String configReader(String propname) throws IOException {
 		fs = new FileInputStream(System.getProperty("user.dir") + "//Resource//browser-config.properties");
 		prop = new Properties();
@@ -19,6 +23,9 @@ public class Util {
 		return prop.getProperty(propname);
 	}
 
+	/**
+	 * @return
+	 */
 	public static Logger applog() {
 
 		PropertyConfigurator.configure(System.getProperty("user.dir") + "//Resource//Log4j.properties");

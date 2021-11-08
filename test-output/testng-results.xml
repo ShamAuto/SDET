@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="4" failed="0" total="4" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31" started-at="2021-10-21T03:31:40Z" finished-at="2021-10-21T03:31:41Z">
+  <suite name="Default suite" duration-ms="11070" started-at="2021-11-07T18:01:13Z" finished-at="2021-11-07T18:01:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31" started-at="2021-10-21T03:31:40Z" finished-at="2021-10-21T03:31:41Z">
-      <class name="com.sdettraining.restAssuredemo.restDemo_04">
-        <test-method status="FAIL" signature="main([Ljava.lang.String;)[pri:0, instance:com.sdettraining.restAssuredemo.restDemo_04@146ba0ac]" name="main" duration-ms="0" started-at="2021-10-21T09:01:40Z" finished-at="2021-10-21T09:01:40Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Method main requires 1 parameters but 0 were supplied in the @Test annotation.]]>
-            </message>
+    <test name="Default test" duration-ms="11070" started-at="2021-11-07T18:01:13Z" finished-at="2021-11-07T18:01:24Z">
+      <class name="com.sdettraining.appium.Appium_3">
+        <test-method status="FAIL" signature="startAppium()[pri:0, instance:com.sdettraining.appium.Appium_3@6fd02e5]" name="startAppium" is-config="true" duration-ms="0" started-at="2021-11-07T23:31:13Z" finished-at="2021-11-07T23:31:13Z">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Method main requires 1 parameters but 0 were supplied in the @Test annotation.
-	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:193)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:129)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:385)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:495)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1253)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:980)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1070)
+              <![CDATA[java.lang.NullPointerException
+	at com.sdettraining.appium.Appium_3.startAppium(Appium_3.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
 	at org.testng.TestRunner.privateRun(TestRunner.java:753)
@@ -42,11 +41,39 @@ Method main requires 1 parameters but 0 were supplied in the @Test annotation.
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- main -->
-      </class> <!-- com.sdettraining.restAssuredemo.restDemo_04 -->
+        </test-method> <!-- startAppium -->
+        <test-method status="SKIP" signature="checkBocAndRadioButtonMethod()[pri:0, instance:com.sdettraining.appium.Appium_3@6fd02e5]" name="checkBocAndRadioButtonMethod" duration-ms="2" started-at="2021-11-07T23:31:24Z" finished-at="2021-11-07T23:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBocAndRadioButtonMethod -->
+        <test-method status="SKIP" signature="startAppium()[pri:0, instance:com.sdettraining.appium.Appium_3@6fd02e5]" name="startAppium" is-config="true" duration-ms="0" started-at="2021-11-07T23:31:24Z" finished-at="2021-11-07T23:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startAppium -->
+        <test-method status="SKIP" signature="checkItemsMethod()[pri:0, instance:com.sdettraining.appium.Appium_3@6fd02e5]" name="checkItemsMethod" duration-ms="2" started-at="2021-11-07T23:31:24Z" finished-at="2021-11-07T23:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkItemsMethod -->
+        <test-method status="SKIP" signature="startAppium()[pri:0, instance:com.sdettraining.appium.Appium_3@6fd02e5]" name="startAppium" is-config="true" duration-ms="0" started-at="2021-11-07T23:31:24Z" finished-at="2021-11-07T23:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startAppium -->
+        <test-method status="SKIP" signature="tabChangingTextMethod()[pri:0, instance:com.sdettraining.appium.Appium_3@6fd02e5]" name="tabChangingTextMethod" duration-ms="1" started-at="2021-11-07T23:31:24Z" finished-at="2021-11-07T23:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tabChangingTextMethod -->
+        <test-method status="SKIP" signature="startAppium()[pri:0, instance:com.sdettraining.appium.Appium_3@6fd02e5]" name="startAppium" is-config="true" duration-ms="0" started-at="2021-11-07T23:31:24Z" finished-at="2021-11-07T23:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startAppium -->
+        <test-method status="SKIP" signature="updateddDateMethod()[pri:0, instance:com.sdettraining.appium.Appium_3@6fd02e5]" name="updateddDateMethod" duration-ms="1" started-at="2021-11-07T23:31:24Z" finished-at="2021-11-07T23:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateddDateMethod -->
+      </class> <!-- com.sdettraining.appium.Appium_3 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,11 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.sdettraining.restAssuredemo.restDemo_04">
+      <class name="com.sdettraining.appium.Appium_3">
         <methods>
-          <include name="main"/>
+          <include name="updateddDateMethod"/>
+          <include name="checkItemsMethod"/>
+          <include name="startAppium"/>
+          <include name="tabChangingTextMethod"/>
+          <include name="checkBocAndRadioButtonMethod"/>
         </methods>
-      </class> <!-- com.sdettraining.restAssuredemo.restDemo_04 -->
+      </class> <!-- com.sdettraining.appium.Appium_3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

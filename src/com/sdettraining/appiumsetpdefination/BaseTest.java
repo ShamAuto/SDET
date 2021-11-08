@@ -1,4 +1,4 @@
-package com.sdettraining.setpdefination;
+package com.sdettraining.appiumsetpdefination;
 
 import java.io.FileInputStream;
 import java.util.Properties;
