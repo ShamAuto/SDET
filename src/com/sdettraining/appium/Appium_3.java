@@ -6,12 +6,10 @@ import static io.appium.java_client.touch.offset.ElementOption.element;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import io.appium.java_client.AppiumDriver;
@@ -40,23 +38,37 @@ public class Appium_3 {
 	public static void startAppium() throws MalformedURLException, InterruptedException {
 		String sFile = "C:\\Users\\ShameemAkther\\Desktop\\DM_Mar_01\\API Testing\\SDET_Training_Oct_04_2021\\ApiDemos-debug.apk";
 		System.out.println("");
-		capability = new DesiredCapabilities();
+		DesiredCapabilities capability = new DesiredCapabilities();
+
 		capability.setCapability("device", "Android");
 		capability.setCapability(CapabilityType.BROWSER_NAME, "");
+
 		capability.setCapability(CapabilityType.VERSION, "22.0");
 		capability.setCapability("app", sFile);
+
 		capability.setCapability("deviceName", "Pixel 2 API 30 2");
 		capability.setCapability("platformName", "Android");
+
 		capability.setCapability("app-package", "io.appium.android.apis");
+
 		capability.setCapability("app-activity", ".ApiDemos");
-		driver = new AppiumDriver<MobileElement>(new URL("http://0.0.0.0:4723/wd/hub"), capability);
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
+		AppiumDriver<MobileElement> driver = new AppiumDriver<MobileElement>(new URL("http://0.0.0.0:4723/wd/hub"),
+				capability);
+		 TouchAction touch = new TouchAction(driver);
+
+		List<MobileElement> listElement = (List<MobileElement>) driver.findElementsById("android:id/text1");
+		for (MobileElement li : listElement) {
+			System.out.println(li.getText());
+
+		}
 		MobileElement views = (MobileElement) driver.findElement(MobileBy.xpath("//*[@text='Views']"));
+
 		touch.tap(tapOptions().withElement(element(views))).perform();
 		Thread.sleep(2000);
-		touch = new TouchAction(driver);
 	}
 
+	@Test
 	public static void checkTimerMethod() throws MalformedURLException, InterruptedException {
 		/*@SuppressWarnings("rawtypes")
 		TouchAction touch = new TouchAction(driver);*/
